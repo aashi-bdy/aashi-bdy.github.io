@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=MedievalSharp" rel="stylesheet"> <!-- font-family: 'MedievalSharp', cursive; -->
+	<link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900" rel="stylesheet"> <!-- font-family: 'Roboto', sans-serif; -->
+	<link href="https://fonts.googleapis.com/css?family=Playball" rel="stylesheet"> <!-- font-family: 'Playball', cursive; -->
+
+</head>
+<body>
+
+
+
+<div class="container">
+	<embed class="audio" src="image/Happy-Birthday-Song.mp3" width="100" height="40" loop="false" loop="false" autostart="true" />
+	<!-- <embed src="image/Happy-Birthday-Song" width="180" height="90" loop="false" autostart="false" hidden="true" /> -->
+
+<div class="imageSec">
+	<div class="bdayHead"><!-- Aashi <br>1st Birthday -->
+		<img src="image/bdayText.png">
+	</div>
+
+
+
+	<div class="tabSec">
+	
+		 <div class="myEnt_tabBtns">
+	     <ul class="tabLink">
+
+	     	<li class="myEnt_active"><a href="#tab2">
+	        	<img src="image/gallery.png">
+	        	<img class="activeTab" src="image/active.png">
+	        </a></li>
+
+	        <li class=""><a href="#tab1">
+	        	<img src="image/wish.png">
+	        	<img class="activeTab" src="image/active.png">
+	        </a></li>
+
+	        
+	     </ul>   
+	  </div>  
+
+	  <div class="myEnt_tabContent">
+
+	     <div class="single" id="tab2" style="display: block;">
+
+ 		     <div class="wishContent">	
+		     	<div id="galleryContent" class="carousel slide" data-ride="carousel">
+				  <div class="carousel-inner">
+				    <div class="carousel-item active">
+				      	<div class="galleryContent">
+			     		  <img src="image/image-1.png">
+			     	  </div> 
+				    </div>
+				    <div class="carousel-item">
+				      <div class="galleryContent">
+			     		  <img src="image/image-1.png">
+			     	  </div> 
+				    </div>
+				    <div class="carousel-item">
+				      <div class="galleryContent">
+			     		  <img src="image/image-1.png">
+			     	  </div> 
+				    </div>
+				  </div>
+				  <a class="carousel-control-prev" href="#galleryContent" role="button" data-slide="prev">
+				    <span class="sr-only"><img src="image/prv.png"></span>
+				  </a>
+				  <a class="carousel-control-next" href="#galleryContent" role="button" data-slide="next">
+				    <span class="sr-only"><img src="image/next.png"></span>
+				  </a>
+				</div>
+			</div>
+
+	     </div>
+
+
+
+	     <div class="single" id="tab1">
+
+	     <div class="wishContent">	
+	     	<div id="wishContent" class="carousel slide" data-ride="carousel">
+			  <div class="carousel-inner">
+			    <div class="carousel-item active">
+			      	<p>You have grown up into a beautiful girl. You've already made us so proud, I just know you'll continue to make us even prouder. Have a blissful birthday!</p>
+	     			<div class="name"><span>Mummy</span></div>
+			    </div>
+			    <div class="carousel-item">
+			      <p>You have grown up into a beautiful girl. You've already made us so proud, I just know you'll continue to make us even prouder. Have a blissful birthday!</p>
+	     		  <div class="name"><span>Mummy</span></div>
+			    </div>
+			    <div class="carousel-item">
+			      <p>You have grown up into a beautiful girl. You've already made us so proud, I just know you'll continue to make us even prouder. Have a blissful birthday!</p>
+	     		  <div class="name"><span>Mummy</span></div>
+			    </div>
+			  </div>
+			  <a class="carousel-control-prev" href="#wishContent" role="button" data-slide="prev">
+			    <span class="sr-only"><img src="image/prv.png"></span>
+			  </a>
+			  <a class="carousel-control-next" href="#wishContent" role="button" data-slide="next">
+			    <span class="sr-only"><img src="image/next.png"></span>
+			  </a>
+			</div>
+		</div>
+
+	   </div>
+
+
+
+
+
+	  </div>
+
+
+	</div>
+
+
+
+</div>
+
+
+</div>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+   <script>
+    $(document).ready(function() {
+        $(".tabLink a").click(function(event) {
+            event.preventDefault();
+            $(this).parent().addClass("myEnt_active");
+            $(this).parent().siblings().removeClass("myEnt_active");
+            var tab = $(this).attr("href");
+            $(".single").not(tab).css("display", "none");
+            $(tab).fadeIn();
+        });
+    });      
+
+    $('.carousel').carousel({
+	  interval: 4000
+	})
+
+    </script> 
+
+</body>
+</html>
