@@ -1,0 +1,177 @@
+
+
+body { padding: 0; margin: 0; font-family: 'Roboto', sans-serif; font-weight: 400; background-image: url(../image/bg-desk.png); background-repeat: no-repeat; background-size: cover; }
+* { box-sizing: border-box; }
+
+.container { max-width: 1060px; margin: 0 auto; }
+.imageSec { height: 100vh; text-align: center;  background-repeat: no-repeat; background-size: cover; }
+.imageSec img { height: 100%; }
+
+.bdayHead {
+    font-size: 53px;
+    font-family: 'MedievalSharp', cursive;
+    color: #2fbeb3;
+    line-height: 1.1em;
+    text-align: center;
+    text-shadow: -2px 1px 0px rgba(169, 207, 60, 0.86);
+    margin: -35px auto 0;
+    padding-top: 175px;
+}
+
+.bdayHead img {
+    height: 140px;
+    margin-bottom: 10px;
+}
+
+.single { display: none; }
+.tabLink { 
+	display: inline-block;
+	padding-left: 0;
+}
+.tabLink li { display: inline-block; 
+	margin: 0 20px; 
+	position: relative; 
+}
+
+.tabLink li a img {
+    height: 55px;
+}
+
+.tabLink li .activeTab {
+    position: absolute;
+    bottom: -11px;
+    left: 40%;
+    display: none;
+    width: 23px;
+    height: 17px;
+}
+.tabLink .myEnt_active .activeTab { display: inline-block; }
+
+.galleryContent img {
+    width: 275px;
+    margin-right: 15px;
+}
+
+.wishContent {
+    width: 450px;
+    margin: 0 auto;
+    padding-right: 80px;
+    position: relative;
+    left: 30px;
+}
+.wishContent p { 
+	color: #f0506f;
+	font-size: 21px;
+	margin-bottom: 10px;
+	line-height: 1.3em;
+	font-family: 'Playball', cursive;
+}
+.wishContent .name { text-align: right; }
+.wishContent .name span { display: inline-block; padding-right: 50px; font-size: 16px; position: relative; }
+.wishContent .name span:before {
+    content: "";
+    width: 13px;
+    height: 2px;
+    background: #000;
+    position: absolute;
+    top: 10px;
+    left: -18px;
+}
+
+.wishContent .sr-only {
+    clip: initial;
+    height: auto;
+    width: auto;
+    clip-path: none;
+}
+.wishContent .sr-only img {
+	height: 35px;
+}
+
+.wishContent .carousel-control-next, .carousel-control-prev {
+    opacity: .8;
+    width: auto;
+    display: inline-block;
+    bottom: -30px;
+    top: unset;
+    left: 40%;
+}
+
+.wishContent .carousel-control-prev {
+    left: 34%;
+}
+
+.wishContent .carousel-control-next {
+    right: 40%;
+}
+
+.audio { position: absolute; opacity: 0; }
+
+
+
+
+
+@media screen and (max-width: 450px) {
+
+	body {
+		background-image: url(../image/mobileBg.png);
+	}
+	.container { overflow: hidden; }
+
+	.bdayHead {
+	    padding-top: 90px;
+	    padding-right: 25px;
+	}
+	.bdayHead img {
+	    height: 100px;
+	}
+
+	.tabLink li {
+	    margin: 0 15px;
+	}
+
+	.tabLink li a img {
+	    height: 40px;
+	}
+
+	.wishContent {
+    	width: 100%;
+    	padding: 0 35px;
+    	left: 0;
+	}
+
+	.wishContent p {
+	    font-size: 18px;
+	    line-height: 1.1em;
+	}
+
+	.galleryContent img {
+	    width: 150px;
+	    margin-right: 15px;
+	}
+
+	.wishContent .carousel-control-next, .carousel-control-prev {
+	    bottom: 0px;
+	}
+	.wishContent .sr-only img {
+	    height: 25px;
+	}
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
