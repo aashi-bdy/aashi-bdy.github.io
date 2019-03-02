@@ -151,7 +151,7 @@ body { padding: 0; margin: 0; font-family: 'Roboto', sans-serif; font-weight: 40
 	}
 
 	.wishContent .carousel-control-next, .carousel-control-prev {
-	    bottom: 0px;
+	    bottom: 0px; 
 	}
 	.wishContent .sr-only img {
 	    height: 25px;
