@@ -114,7 +114,7 @@ body { padding: 0; margin: 0; font-family: 'Roboto', sans-serif; font-weight: 40
 @media screen and (max-width: 450px) {
 
 	body {
-		background-image: url(../image/mobileBg.png);
+		background-image: url(../image/mobileBg.jpg);
 	}
 	.container { overflow: hidden; }
 
