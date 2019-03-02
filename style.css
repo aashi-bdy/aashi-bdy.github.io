@@ -1,6 +1,6 @@
 
 
-body { padding: 0; margin: 0; font-family: 'Roboto', sans-serif; font-weight: 400; background-image: url(../image/bg-desk.png); background-repeat: no-repeat; background-size: cover; }
+body { padding: 0; margin: 0; font-family: 'Roboto', sans-serif; font-weight: 400; background-image: url(../image/bg-desk.jpg); background-repeat: no-repeat; background-size: cover; }
 * { box-sizing: border-box; }
 
 .container { max-width: 1060px; margin: 0 auto; }
