@@ -1,0 +1,566 @@
+
+
+@media (min-width:768px){
+    .container{
+        max-width:750px
+    }
+}
+@media (min-width: 992px) {
+	.container {
+	    max-width: 1000px;
+	}
+}
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1200px;
+    }
+}
+
+
+
+
+@media screen and (max-width: 1024px) {
+
+    /*.container {
+        max-width: 1000px;
+    }*/
+
+    .mainBanner {
+	    height: 525px; 
+	}
+
+    .navList .nav-link {
+        padding: 0px 15px !important;
+        font-size: 12px;
+    }
+    .topContact {
+        margin-left: 0;
+    }
+    .navList {
+        padding: 8px 0;
+        margin-top: 0;
+    }
+    .logo {
+        top: -52px;
+    }
+    .reasonsList li {
+        padding-left: 30px;
+        padding-right: 35px;
+        height: 110px;
+    }
+    .catagHoverContent p {
+        padding-right: 0;
+        font-size: 13px;
+    }
+    .catagoriesBox {
+        height: 225px;
+    }
+    .catagHoverContent a {
+        width: 45px;
+        height: 45px;
+        line-height: 45px;
+        right: 8px;
+        bottom: 8px;
+    }
+    .footerInner {
+        min-width: 400px;
+    }
+    .rightFoot .footerInner {
+        min-width: 580px;
+        padding: 65px 10px 10px 65px;
+    }
+
+
+    .brandLogoBox {
+	    max-width: 395px;
+	}
+	.brandType {
+	    padding: 30px 40px 0px;
+	}
+	.brandCategory span { font-size: 14px; }
+	.carpetCol {
+	    padding-right: 25px;
+	}
+
+	.awardSection {
+	    height: 250px;
+	}
+	.awardImg img {
+	    width: 225px;
+	}
+
+
+
+}
+
+
+
+
+
+@media screen and (max-width: 800px) {
+    .title {
+        font-size: 24px;
+        margin-bottom: 25px;
+    }
+
+    header {
+        height: 95px;
+    }
+    .topContact {
+        padding: 8px 0;
+    }
+    .topContact span {
+        font-size: 10px;
+        margin-left: 15px;
+        margin-right: 0;
+    }
+    .topContact:before {
+        display: none;
+    }
+    .logo {
+        top: 0;
+    }
+    .logo img {
+        width: 115px;
+        margin-top: 5px;
+    }
+    .navList .nav-item {
+        margin: 0 3px;
+    }
+    .navList .nav-link {
+        font-size: 10px;
+        padding: 0px 8px !important;
+    }
+    .navList {
+        padding: 12px 0 5px;
+        margin-top: 0;
+    }
+    .mainBanner {
+        height: 400px;
+    }
+    .bannerBtn {
+	    bottom: 60px; 
+	}
+
+    .linkBox li a {
+        font-size: 24px;
+    }
+    .reasonsSection {
+        padding: 35px 0 15px;
+    }
+    .catagoriesBox {
+        height: 215px;
+        width: 50%;
+    }
+    .whyChooseSection {
+        padding: 40px 0;
+        background-size: 100% 100%;
+    }
+    .whyChooseSection .title {
+        margin-bottom: 10px;
+    }
+    .whyChooseContent p {
+        font-size: 16px;
+        margin-bottom: 8px;
+    }
+    .comanySection {
+        padding: 20px 0;
+    }
+    .reviewsSection {
+        padding: 40px 0;
+    }
+    .reviewsBox {
+        padding: 15px 0;
+    }
+    .reviewsBox h1 {
+        font-size: 22px;
+        margin-bottom: 0;
+    }
+    .reviewsBox .rate {
+        margin-bottom: 3px;
+    }
+    .reviewsBox h4 {
+        font-size: 14px;
+        margin-bottom: 5px;
+    }
+    .reviewsBox p {
+        font-size: 13px;
+        line-height: 1.5em;
+    }
+    .footerInner {
+        min-width: auto;
+        padding-left: 25px;
+        max-width: 100%;
+    }
+    .rightFoot .footerInner {
+        min-width: 95%;
+        padding: 50px 10px 10px 40px;
+    }
+    .footLinkBox h5 {
+        font-size: 18px;
+        margin-bottom: 12px;
+    }
+    .footLink li {
+        margin-bottom: 6px;
+    }
+    .footerInner h4 {
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+
+
+    .brandLogoBox {
+	    max-width: 365px;
+	}
+	.brandLogoBox .title2 {
+	    text-align: center;
+	    line-height: 1.2em;
+	}
+	.brandType {
+	    padding: 20px 25px 0px;
+	}
+	.brandCategory {
+	    height: 75px;
+	    margin: 0 10px 8px 0; 
+	    padding: 5px;
+	}
+	.brandCategory span {
+	    font-size: 13px;
+	    font-weight: 400;
+	}
+	.carpetCol {
+	    padding-right: 15px;
+	}
+	.carpetImg {
+	    height: 125px;
+	}
+	.carpetImg {
+	    height: 125px;
+	    margin-bottom: 10px;
+	}
+	.carpetBox h3 {
+	    font-size: 17px;
+	    margin-bottom: 5px;
+	}
+	.carpetBox p {
+	    font-size: 15px;
+	    font-weight: 300;
+	}
+
+	.managerDetail {
+	    width: 70%;
+	}
+	.awardSection {
+	    height: 200px;
+	}
+	.awardImg img {
+	    width: 180px;
+	}
+
+
+	.mapBox iframe {
+	    height: 300px;
+	}
+	.awardText {
+	    font-size: 24px;
+	    width: 450px;
+	}
+
+	.prodBannerBtn {
+	    top: 70%;
+	}
+
+
+
+
+}
+
+
+@media screen and (max-width: 450px) {
+
+	header {
+	    height: 110px;
+	}
+    .topContact span {
+	    width: 100%;
+	    margin-bottom: 3px;
+	    margin-left: 0;
+	    padding: 0 10px;
+	}
+	.fbLink { display: none !important; }
+    .topContact {
+        display: inline-block;
+        width: 100%;
+    }
+
+    .navList .navbar {
+	    float: right;
+	    position: relative;
+	    top: 6px;
+	    right: -10px;
+	}
+    .navList .navbar .navbar-toggler {
+	    padding: 0;
+	    color: #14aa9f;
+	    position: absolute;
+	    right: 0;
+	    top: 0;
+	    margin-top: 15px;
+	}
+	.navList .navbar .navbar-toggler.collapsed {
+		top: ;
+	}
+	.navSec {
+		background: #000;
+		position: relative;
+		top: 5px;
+	}
+	.navList .nav-item:first-child .nav-link {
+	    padding-left: 20px !important;
+	}
+	.navList .nav-link {
+	    padding: 8px 20px !important; 
+	}
+
+	.navbar { padding: 0; }
+	.navbar-toggler {
+	    border: 1px solid #fff;
+	    padding: 0px 5px;
+	    margin-top: 6px;
+	}
+	.navbar-toggler-icon {
+	    color: #fff;
+	    line-height: 1.6;
+	}
+	.navList .nav-item { border-right: none; }
+
+
+    .headerMain {
+        padding-bottom: 8px;
+    }
+    .logo {
+	    top: 4px;
+	}
+    .logo img {
+	    width: 105px;
+	    margin-top: 0;
+	}
+	
+	.mainBanner {
+	    height: 325px;
+	}
+	.bannerSection .owl-prev, .bannerSection .owl-next {
+	    width: 38px;
+	    height: 50px;
+	}
+
+    .bannerSection .owl-prev {
+        left: 5px;
+    }
+
+	.bannerSection .owl-next {
+        right: 5px;
+    }   
+    .bannerBtn {
+    	bottom: 50px;
+    	left: 15px;
+    	right: auto;
+    }
+    .linkBox li {
+	    width: 50%;
+	    height: 95px;
+	}
+	.linkBox li a {
+	    line-height: 95px;
+	    font-size: 22px;
+	}
+
+	.linkBox li a span {
+	    right: 10px;
+	    bottom: 5px; 
+	}
+	.reasonsList li {
+	    width: 100%;
+	    padding-right: 0;
+	}
+	.reasonsList li {
+	    width: 100%;
+	    padding-right: 0;
+	    height: auto;
+	}
+	/*.catagHoverContent {
+	    height: 100%;
+	    margin-bottom: 5px;
+	}*/
+	.catagoriesMain {
+	    padding: 0 15px;
+	}
+	.catagoriesBox {
+	    height: 225px;
+	    width: 100%;
+	    margin-bottom: 10px;
+	}
+	.whyChooseSection {
+	    background-size: cover;
+	    background-position: right;
+	}
+	.reviewsBox h1 {
+	    font-size: 20px;
+	    margin-bottom: 5px;
+	}
+
+	.footerInner {
+	    min-width: 100%;
+	    padding: 25px;
+	    padding-left: 25px;
+	    max-width: initial;
+	    width: 100%;
+	}
+	.footerInnerBox:last-child {
+	    border-bottom: 1px solid #38b7ed;
+	}
+	.footerInner h4 {
+	    font-size: 20px;
+	    margin-bottom: 6px;
+	}
+	.footerInner p {
+	    font-size: 16px;
+	    color: #fff;
+	    margin-bottom: 8px;
+	}
+	.footerInner a {
+	    font-size: 15px;
+	    text-decoration: underline;
+	    color: #46bcee;
+	}
+	.rightFoot .footerInner {
+	    min-width: 100%;
+	    max-width: 100%;
+	    width: 100%;
+	    padding: 25px 25px 10px 45px;
+	}
+
+	.footLink li {
+	    margin-bottom: 0px;
+    	line-height: 1.25em;
+	}
+	.footLink li a {
+	    font-size: 12px;
+	}
+	.footLink {
+	    margin-bottom: 20px;
+	}
+	.copyRightBox {
+	    font-size: 12px;
+	    text-align: center;
+	}
+	.termsBox {
+	    text-align: center;
+	}
+	.bootmFoot {
+	    padding: 10px 0 8px;
+	    border-top: none;
+	}
+	.footLinkBox h5 {
+	    font-size: 15px;
+	    margin-bottom: 6px;
+	}
+
+	.navList {
+	    padding: 5px 0 5px;
+	    display: inline-block;
+	    width: 100%;
+	}
+
+
+	.prodBannerBtn {
+	    width: 215px;
+	    left: 0;
+	    right: 0;
+	    margin: auto;
+	    font-size: 26px;
+	    height: 50px;
+	    line-height: 34px;
+	    transform: initial;
+	}
+	.visitMsg {
+	    font-size: 15px;
+	    padding: 15px 25px 11px;
+	}
+	.brandLogoBox {
+	    max-width: 100%;
+	    padding: 25px 20px 25px 25px;
+	}
+	.brandLogo span {
+	    padding: 15px 10px;
+	}
+	.brandLogo span img {
+	    width: 100%;
+	}
+	.brandType {
+	    padding: 20px 25px 0px;
+	    padding-left: 20px;
+	    margin-left: 20px;
+	}
+	.carpetImg {
+	    height: 150px;
+	    margin-bottom: 10px;
+	}
+	.carpetBox {
+	    margin-bottom: 35px;
+	}
+	.mainService .servicesTypes {
+	    padding-left: 0;
+	}
+	.locationList li a {
+	    padding: 0px 10px;
+	    font-size: 14px;
+	}
+	.locationList li {
+	    margin-bottom: 8px;
+	}
+
+
+	.managerBox img {
+	    width: 150px;
+	    margin: 0 auto 15px;
+	    display: block;
+	}
+	.managerDetail {
+	    width: 100%;
+	    padding-left: 0;
+	}
+
+	.awardSection {
+	    background-position: right;
+	    background-size: cover;
+	}
+	.awardSection {
+	    height: auto;
+	    padding: 30px 0;
+	}
+	.awardImg {
+	    text-align: center;
+	    margin-top: 28px;
+	}
+	.awardImg {
+	    margin-top: 30px;
+	}
+
+	.awardText {
+	    font-size: 22px;
+	    width: 100%;
+	    text-align: center;
+	}
+	.locationBanner {
+	    height: 225px;
+	}
+
+
+
+}
+
+
+
+
+@media screen and (max-width: 321px) {}
